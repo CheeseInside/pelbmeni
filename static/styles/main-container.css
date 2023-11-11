@@ -1,0 +1,39 @@
+
+.main-container
+{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1);
+}
+
+.left-bar {
+    grid-column: 1/2;
+}
+
+.tables_container {
+    grid-column: 2/12;
+}
+
+.work_panel
+{
+    text-align: center;
+    max-height: 5em;
+}
+
+.inputs
+{
+    display: inline-block;
+}
+
+input {
+    max-width: 8em;
+    height: 3em;
+    text-align: center;
+}
+
+.tables
+{
+    display: flex;
+    justify-content: space-between;
+}
+
