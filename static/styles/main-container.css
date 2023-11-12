@@ -11,22 +11,40 @@
 }
 
 .tables_container {
-    grid-column: 2/12;
+    grid-column: 2/13;
 }
 
 .work_panel
 {
-    text-align: center;
-    max-height: 5em;
+    margin: 0.5em;
+    position: fixed;
+    align-content: center;
+    align-items: center;
+}
+
+.work_panel img{
+    max-width: 9em;
+}
+
+button
+{
+    max-width: 9em;
+}
+
+.buttons
+{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .inputs
 {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
 }
 
 input {
-    max-width: 8em;
+    max-width: 9em;
     height: 3em;
     text-align: center;
 }

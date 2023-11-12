@@ -7,7 +7,7 @@
 .tables_container 
 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2);
 }
 
@@ -15,4 +15,13 @@
 {
     display: inline-block;
     margin: 1.5em;
+    text-align: center; 
+}
+
+caption
+{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+
 }
